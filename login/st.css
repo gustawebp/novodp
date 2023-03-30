@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,900&display=swap');
+body{
+    background-color: #e8e8e8e7;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+h1{
+    text-align: center;
+}
+#formprincipal{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px 25px;
+
+    background-color: #4E31AD;
+    border-radius: 15px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.07),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.101),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.125),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.149),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.18),
+    100px 100px 80px rgba(0, 0, 0, 0.25)
+  ;
+}
+
+.inp1::placeholder{
+    text-align: start;
+    color: white;
+
+}
+
+.inp1{
+    background-color: #1B1A21;
+    padding: 20px;
+    border: 0;
+    border-bottom: 1px solid white;
+    margin: 5px;
+    color: white;
+}
+
+
+  input[type="text"]:focus {
+    border-radius: 24px; /* valor do raio da borda */
+    transition: ease-in-out 0.2s;
+    
+  }
+
+  input[type="submit"] {
+    background-color: #442a9cf6 ;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid #1B1A21;
+    font-weight: 700;
+    font-size: 15pt;
+    
+  }
+  
+
+
+/* Color Theme Swatches in Hex */
+.Violet-Monochrome-1-hex { color: #FFFFFF; }
+.Violet-Monochrome-2-hex { color: #1B1A21; }
+.Violet-Monochrome-3-hex { color: #4E31AD; }
+.Violet-Monochrome-4-hex { color: #744AFF; }
+.Violet-Monochrome-5-hex { color: #E8E8E8; }
+
+/* Color Theme Swatches in RGBA */
+.Violet-Monochrome-1-rgba { color: rgba(255, 255, 255, 1); }
+.Violet-Monochrome-2-rgba { color: rgba(27, 26, 33, 1); }
+.Violet-Monochrome-3-rgba { color: rgba(77, 48, 173, 1); }
+.Violet-Monochrome-4-rgba { color: rgba(116, 73, 255, 1); }
+.Violet-Monochrome-5-rgba { color: rgba(232, 232, 232, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Violet-Monochrome-1-hsla { color: hsla(0, 0, 100, 1); }
+.Violet-Monochrome-2-hsla { color: hsla(0, 11, 11, 1); }
+.Violet-Monochrome-3-hsla { color: hsla(0, 56, 43, 1); }
+.Violet-Monochrome-4-hsla { color: hsla(0, 100, 64, 1); }
+.Violet-Monochrome-5-hsla { color: hsla(0, 0, 91, 1); }
